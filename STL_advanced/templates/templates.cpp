@@ -12,5 +12,7 @@ int main() {
     int b = 7;
 
     cout<<"Max of a and b = "<<maxof<int>(a,b)<<endl;
+    cout<<"Max of a and b = "<<maxof<short int>(a,b)<<endl;
+    cout<<"Max of a and b = "<<maxof<long int>(a,b)<<endl;
     return 0;
 }
