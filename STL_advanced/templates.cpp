@@ -3,7 +3,7 @@ using namespace std;
 
 template <typename T>
 
-T maxof(const int &a, const int &b) {
+T maxof(const T &a, const T &b) {
     return (a > b ? a : b);
 }
 
